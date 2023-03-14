@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #a08a09;
+  --primary-color-two: #fdf2e9;
+  --color-white: #fff;
+  --color-dark-gray: #333;
+  --color-light-gray: #999;
+  --primary-bg: #ececec;
+  --shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  --shadow-2: 0rem 0px 18px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+  background-color: var(--primary-bg);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2.1rem;
+  line-height: 1.11;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #444;
+  padding: 0;
+  margin: 0 0 20px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #36302c;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.svg-small {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+.svg-big {
+  width: 6.7rem;
+  height: 6.7rem;
+}
+
+.svg-primary-bg {
+  fill: var(--primary-color);
+}
+.svg-white-bg {
+  padding: 0.9rem;
+  background-color: #fff;
+  border-radius: 10rem;
+}
+.svg-gray-bg {
+  padding: 0.5rem;
+  fill: #444;
+}
+.noDisplay {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .svg-big {
+    width: 5rem;
+    height: 5rem;
+  }
+  .svg-small {
+    width: 4rem;
+    height: 4rem;
+  }
+}

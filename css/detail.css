@@ -1,0 +1,41 @@
+.detail__section {
+}
+.detail__container {
+  margin: 0.6rem;
+}
+.detail__content {
+  background-color: #fff;
+  padding: 2rem;
+  border: 1px #267d39 solid;
+}
+.detail__title {
+  text-transform: uppercase;
+  color: #d78d63;
+  margin-bottom: 0.7rem;
+}
+.detail__description {
+  color: #777;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+.detail__price {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.detail__price {
+  font-size: 1.8rem;
+  color: #267d39;
+  font-weight: 600;
+}
+
+.detail__btn {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color: #ffb322;
+  border: none;
+  margin-bottom: 0.6rem;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #267d39;
+}
