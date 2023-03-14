@@ -10,33 +10,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__logo">CornX</div>
-      <input class="side-menu" type="checkbox" id="menu-bar" />
-      <label class="hamb" for="menu-bar">
-      <span class="hamb-line"></span>
-      </label>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">CornX</div>
+        <!-- NAVIGATION MENU -->
+        <div class="header__icon-left">
+          <svg class="svg-small svg-primary-bg">
+            <use xlink:href="svgs/material-icon.svg#icon-search"></use>
+          </svg>
+          <svg class="svg-small svg-primary-bg">
+            <use xlink:href="svgs/material-icon.svg#icon-verified_user"></use>
+          </svg>
+          <svg class="svg-small svg-primary-bg">
+            <use xlink:href="svgs/material-icon.svg#icon-shopping_bag"></use>
+          </svg>
+        </div>
+        <!-- USING CHECKBOX HACK -->
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <!-- NAVIGATION MENUS -->
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
         </ul>
       </nav>
-
-      <div class="header__icon-left">
-        <svg class="svg-small svg-primary-bg">
-          <use xlink:href="svgs/material-icon.svg#icon-search"></use>
-        </svg>
-        <svg class="svg-small svg-primary-bg">
-          <use xlink:href="svgs/material-icon.svg#icon-verified_user"></use>
-        </svg>
-        <svg class="svg-small svg-primary-bg">
-          <use xlink:href="svgs/material-icon.svg#icon-shopping_bag"></use>
-        </svg>
-      </div>
     </header>
-
     <section class="hero__section">
       <div class="hero__content">
         <p class="hero__caption">new arrival</p>
